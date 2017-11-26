@@ -1,0 +1,98 @@
+*{
+	margin: 0;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+}
+
+/* Estilos del header */
+#myHeader{	
+	background-color: #FA8258;
+	text-align: right;
+	font-size: 20px;
+}
+/* Estilos primera sección */
+#section-imagen1{
+	background-color: #FA8258;
+	height: 500px;
+}
+/* Añadiendo imagen de fondo a mi primera sección */
+.portada{
+	background-image: url(../img/uno.jpg);
+	height: 450px;
+	background-size: cover;
+	background-position: center;	
+}
+/* Estilos segunda sección */
+#section-abaut{
+	background-color: #81F781;
+	height: 400px;
+}
+/* Color y márgenes al cuadro de texto de mi segunda sección */
+.text-box{
+	background-color: #FA8258;
+	width: 550px;
+	margin-top: 50px;
+	margin-left: 350px;
+}
+/* Márgenes del título de mi cuadro de texto de mi segunda sección */
+.title-abaut{
+	margin-top: 20px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+/* Estilos tercera sección */
+#section-imagen2{
+	background-color: #FA8258;
+	height: 750px;
+}
+/* Añadiendo imagen de fondo a mi tercera sección */
+.img2{
+	margin-top: 50px;
+	background-image: url(../img/dos.jpg);
+	background-size: cover;
+  	width: 100%;
+  	height: 650px;
+  	margin-bottom: 1%;
+}
+/* Estilos cuarta sección pictures */
+#section-pictures{
+	background-color: #81F781;
+	height: 500px;
+}
+/* Márgenes del título de mi cuarta sección pictures */
+.title-pictures{
+	margin-top: 50px;
+	text-align: center;
+	font-size: 50px;
+}
+/* Márgenes de las imágenes de cuarta sección pictures */
+.pictures{
+	margin-top: 50px;
+	margin-left: 150px;
+}
+.col-2{
+	margin-left: 50px;
+}
+/* Dándole borde a todas las imágenes de la cuarta sección */
+.col-2 img{
+	border: 8px solid white;
+}
+#section-imagen3{
+	background-color: #FA8258;
+	height: 700px;
+}
+/* Estilos quinta sección imagen */
+.img3{
+	margin-top: 50px;
+	background-image: url(../img/tres.jpg);
+	background-size: cover;
+  	width: 100%;
+  	height: 650px;
+  	margin-bottom: 1%;
+}
+/* Estilos del footer */
+#footer{
+	background-color: #FA8258;
+	text-align: right;
+	font-size: 20px;
+}
